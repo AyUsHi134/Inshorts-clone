@@ -4,7 +4,7 @@ import menuLogo from '../assets/logo_inshorts.png';
 
 const StyleHeader = styled(AppBar)`
 background: #fff;
-height:75px;
+height:70px;
 `;
 
 const Image = styled('img')({
