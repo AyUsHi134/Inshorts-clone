@@ -1,6 +1,7 @@
 import {Box, styled} from '@mui/material';
 import Header from './components/Header';
 import Infoheader from './components/InfoHeader';
+import Articles from './components/Articles';
 
 const Container = styled(Box)`
 width: 60%;
@@ -14,6 +15,7 @@ return (
        <Header />
        <Container>
         <Infoheader />
+        <Articles/>
        </Container>
     </Box>
     </>
